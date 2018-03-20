@@ -1,7 +1,9 @@
 package leafTaps;
 
 
+
 import org.testng.annotations.Test;
+
 import wdMethods.SeMethods;
 
 public class EditLead extends SeMethods{
@@ -24,7 +26,7 @@ public class EditLead extends SeMethods{
 		//Finding the lead by first name
 		click(locateElement("xpath","//a[text()='Leads']"));
 		click(locateElement("xpath","//a[text()='Find Leads']"));
-		type(locateElement("xpath", "(//div[@class='x-form-item x-tab-item'])[2]//input"), "sunil");
+		type(locateElement("xpath", "(//div[@class='x-form-item x-tab-item'])[2]//input"), "sunil1");
 		click(locateElement("xpath","//button[text()='Find Leads']"));
 		
 		//selecting the first result

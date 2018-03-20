@@ -5,7 +5,7 @@ import wdMethods.SeMethods;
 
 public class DuplicateLead extends SeMethods{
 
-	@Test
+	@Test (invocationCount=2, threadPoolSize=3)
 	public void findLeads() {
 		//launching the browser and entering the url
 		startApp("Chrome", "http://leaftaps.com/opentaps/control/login");

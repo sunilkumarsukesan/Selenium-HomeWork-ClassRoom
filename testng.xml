@@ -3,8 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="leafTaps.DeleteLead"/>
-      <class name="leafTaps.DuplicateLead"/>
       <class name="leafTaps.EditLead"/>
     </classes>
   </test> <!-- Test -->
